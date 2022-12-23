@@ -187,10 +187,12 @@ nav{
 .contacts{
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #000000;
+    padding: 15px 15px;
+    color: #ffffff;
     font-size: 30px;
+
+    background-color: #ac4d0c;
+    
 }
 
 @media screen and (min-width: 900px) {
