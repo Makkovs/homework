@@ -197,6 +197,20 @@ nav{
     }
 }
 
+/*Shedule*/
+
+.shedule{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.element-3{
+    margin-top: 20px;
+}
+
 /*Contacts*/
 
 .contacts{
