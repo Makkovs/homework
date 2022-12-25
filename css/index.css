@@ -162,6 +162,12 @@ nav{
     margin-top: 25px;
 }
 
+.row-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
 @media screen and (min-width: 900px) {
     .content img{
         object-fit: cover;
@@ -170,6 +176,11 @@ nav{
     .description{
         width: 600px;
     }
+    
+    .row-3 iframe{
+        height: 200px;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -177,7 +188,11 @@ nav{
         object-fit: cover;
         width: 270px;
     }
-    .content iframe{
+    .row-2 iframe{
+        width: 300px;
+    }
+    
+    .row-3 iframe{
         width: 300px;
     }
 }
